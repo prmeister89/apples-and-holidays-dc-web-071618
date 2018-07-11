@@ -59,6 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
         new_array << items
       end
     end
+  end
   return new_array.flatten
 end
 
