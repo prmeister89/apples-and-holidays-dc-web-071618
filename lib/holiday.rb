@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
           word.capitalize!
         end
         new_array.join
-        
+      end
     
       end
     #season_array = season_string.split
