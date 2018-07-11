@@ -70,9 +70,9 @@ def all_supplies_in_holidays(holiday_hash)
       holidays.each do |name, items|
         holiday_string = name.to_s + ":"
         holiday_string.capitalize!
-        new_array = holiday_string.split("_")
+        holiday_array = holiday_string.split("_")
         
-        new_array.each_index do |word|
+        new_array.each do |word|
           word.capitalize!
         end
         binding.pry
