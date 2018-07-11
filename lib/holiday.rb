@@ -76,16 +76,9 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_array.each do |word|
           new_array << word.capitalize!
         end
-        binding.pry
-        puts "  " + new_array.join(" ")
+        puts "  " + new_array.join(" ") + " " + items.join(", ")
       end
-    
-    
-    #season_array = season_string.split
-     # for season_array do |
-    
   end
-  
 end
 
 def all_holidays_with_bbq(holiday_hash)
