@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 binding.pry
+  a = 
   holiday_hash.each do |season, holiday|
     holiday.each do |attribute, value|
       puts "#{attribute}: #{value}"
