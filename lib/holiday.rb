@@ -65,10 +65,9 @@ def all_supplies_in_holidays(holiday_hash)
 binding.pry
   
   holiday_hash.each do |season, holiday|
-    holiday.each do |attribute, value|
-      puts "#{attribute}: #{value}"
-    end
-    puts "#{season}: #{holiday}"
+    season_string = season.to_s
+    if 
+    season_string.split
   end
   
 end
