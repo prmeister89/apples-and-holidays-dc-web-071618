@@ -67,7 +67,7 @@ binding.pry
   holiday_hash.each do |season, holiday|
     season_string = season.to_s
     season_array = season_string.split
-    season_array
+      for season_array do |
     
   end
   
