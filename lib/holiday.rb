@@ -101,7 +101,7 @@ new_array = []
       end
     end
   end
-  return new_array
+  return new_array.flatten
 end
 
 
