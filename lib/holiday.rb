@@ -78,7 +78,6 @@ def all_supplies_in_holidays(holiday_hash)
         end
         binding.pry
         puts "  " + new_array.join(" ")
-        new_array + items
       end
     
     
