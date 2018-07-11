@@ -48,7 +48,6 @@ holiday_hash.each do |key, value|
   
   if season == key
     value[holiday_name] = supply_array
-    binding.pry
   end
 end
   holiday_hash[:season] = {holiday_name: supply_array}
