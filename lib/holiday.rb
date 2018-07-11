@@ -44,7 +44,10 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
   # remember to return the updated hash
 
- 
+holiday_hash.each do |existing_season|
+  if season == existing_season
+  end
+end
   holiday_hash[:season] = {holiday_name: supply_array}
   holiday_hash
 end
