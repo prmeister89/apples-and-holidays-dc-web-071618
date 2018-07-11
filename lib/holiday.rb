@@ -46,7 +46,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 
 holiday_hash.each do |key, value|
   binding.pry
-  if season == existing_season
+  if season == key
     
   end
 end
