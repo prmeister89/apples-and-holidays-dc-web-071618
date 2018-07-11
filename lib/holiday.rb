@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
         new_array + items
       end
     
-      end
+    
     #season_array = season_string.split
      # for season_array do |
     
